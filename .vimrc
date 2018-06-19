@@ -1,18 +1,18 @@
 syntax on
 
-let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum" " some tmux stuff
-let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
-set termguicolors " enable true colors
+"let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum" " some tmux stuff
+"let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+"set termguicolors " enable true colors
 
 "italics for tmux
-let &t_ZH="\<Esc>[3m"
-let &t_ZR="\<Esc>[23m"
+"let &t_ZH="\<Esc>[3m"
+"let &t_ZR="\<Esc>[23m"
 
-let g:gruvbox_italic=1
-let g:gruvbox_contrast_dark="soft"
-let g:gruvbox_number_column="bg1"
-colorscheme gruvbox
-set background=dark
+"let g:gruvbox_italic=1
+"let g:gruvbox_contrast_dark="soft"
+"let g:gruvbox_number_column="bg1"
+"colorscheme gruvbox
+"set background=dark
 
 set mouse=a
 
