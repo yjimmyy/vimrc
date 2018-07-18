@@ -57,7 +57,7 @@ set visualbell
 set showmode
 set report=0
 set ruler
-
+a
 
 set wildmenu
 set wildmode=longest:full
